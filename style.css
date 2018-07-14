@@ -1,0 +1,101 @@
+.flexparent
+    {
+        display:flex;
+        flex-direction:row;
+        justify-content:center;
+    }
+    
+       .child1{
+	    width:92%;
+        margin:2%;
+		padding:2%;
+		border:2px solid #ddd;
+	}
+        .child2{
+        width:92%;
+        margin:2%;
+        padding:2%;
+        border:2px solid  #ddd;
+        }
+        img{
+        	width:70;
+        	height:auto;
+        	display: block;
+            margin:auto;
+            border-radius: 50%
+
+        }
+    
+        @media only screen and (min-width:769px) and (max-width:1024px)
+        {
+          
+            .flexparent{
+                display:flex;
+                flex-direction:column;
+                justify-content: center;
+            }
+        
+       .child1{
+        width:92%;
+        margin:2%;
+        padding:2%;
+        border:2px solid #ddd;
+        background-color:green;
+    }
+        .child2{
+        width:92%;
+        margin:2%;
+        padding:2%;
+        border:2px solid #ddd;
+        background-color:red;
+        }
+
+   }
+    @media only screen and (min-width:769px) and (max-width:1024x)
+        {
+            .flexparent{
+                display:flex;
+                flex-direction:row;
+                justify-content: center;
+            }
+        
+      .child1{
+        width:92%;
+        margin:2%;
+        padding:2%;
+        border:2px solid #ddd;
+        background-color:yellow;
+    }
+        .child2{
+        width:92%;
+        margin:2%;
+        padding:2%;
+        border:2px solid #ddd;
+        background-color:yellow;
+        }
+      }
+
+    @media only screen and (min-width:769px) and (max-width:1024px)
+        {
+           
+            .flexparent{
+                display:flex;
+                flex-direction:row;
+                justify-content: center;
+            }
+        
+       .child1{
+        width:92%;
+        margin:2%;
+        padding:2%;
+        border:2px solid #ddd;
+        background-color:green;
+    }
+        .child2{
+        width:92%;
+        margin:2%;
+        padding:2%;
+        border:2px solid #ddd;
+        background-color:purple;
+        }
+       }

@@ -1,0 +1,51 @@
+{
+ "basics":{
+ 	"name":"satya",
+ 	"email":"satyajyothi87@gmail.com",
+ 	"mobile":"9876543210"
+ },
+ "career": {
+
+"info":"To pursue a challenging career and be a part of progressive organization that gives a scope to enhance my knowledge and utilizing my skills towards the growth of the organization"
+},
+"education":[
+{
+ "degree":"B.Tech(C.S.E)",
+ "institute":"Avanthi",
+ "data":["2015-19","70%"]
+},
+{
+ "degree":"intermediate",
+ "institute":"narayana junior college",
+ "data":["2013-2015","73%"]
+},
+{
+ "degree":"S.S.C",
+ "institute":"sarada english medium high school",
+ "data":["2012-13","88%"]
+}
+],
+"skills":[
+{
+	"tittle":"programming languages",
+	"info":["c","c++","java","python","R"]
+},
+{
+    "tittle":"Databases",
+	"info":["mongoDb","mysql","Oracle"]
+},
+{
+	"tittle":"web Technologies",
+	"info":["javaScript","HTML5","ISS3"]
+},
+{
+    "tittle":"libraries and frameworks",
+	"info":["Angular","ionic","expressjs","Django"]
+},
+{
+	 "tittle":"Operating system",
+	"info":["Dos","linux","Windows"]
+}
+
+]
+}
